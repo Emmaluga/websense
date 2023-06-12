@@ -1,0 +1,310 @@
+body {
+  margin: 0;
+ 
+  text-decoration: none;
+  font-family: "Alliance No.1",-apple-system,BlinkMacSystemFont,"Segoe UI",
+  Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";;
+}
+
+#logo-span{
+  
+  color: black; 
+  font-weight: bold;
+  font-size: 1.4rem;
+font-family:  'Roboto', sans-serif;
+}
+#logo-span-new{
+  color: pink; 
+}
+.span1{
+  font-family:'Kaushan Script', cursive; ;
+}
+/* #newcolor{
+   color: purple;
+} */
+
+
+#navlink{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  margin: 0px 10px;
+  color: black;
+  font-weight: 600;
+  font-size: 1.3em;
+}
+#navlink:hover{
+  color: purple;
+  letter-spacing: 0.4em;
+}
+#navLink-new{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  margin: 0px 10px;
+  font-weight: 200;
+  font-size: 1.3em;
+  color: #ffaa5f ;
+  
+}
+/* #navlink-new:hover{
+  color: purple;
+  letter-spacing: 0.4em;
+} */
+#contactnav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  margin: 0px 10px;
+   color: white; 
+   font-size: 1.3em;
+   border: 2px solid purple;
+   background-color: purple;
+   padding: 0 20px
+  
+
+
+  
+}
+.hero-text{
+  /* color: black; */
+  /* font-size: 2.5em; */
+  padding: 50px 0;
+  font-family: "apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif, Symbol " ;
+}
+
+.head1{
+   font-size: 3.5em; 
+}
+
+.hero{
+    
+  padding: 100px 0; 
+
+  
+     /* background-color: green;  */
+    /* background-image: url(../src/images/portfolio\ image.jpg);  */
+   /* background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   width: 100%;
+   min-height: 50vh;
+
+
+    /* position: relative; */
+  
+}
+
+.para{
+  font-size: 1.5rem;
+  color: black;
+}
+.hero-row{
+  display: flex;
+  justify-content: space-around;
+}
+
+.btn1{
+ background-color: purple;
+  border: purple;
+  border-radius: 5px 5px;
+  padding: 9px 9px;
+  color: white;
+  font-size: 1.5em;
+  font-weight: bold;
+  
+}
+
+/* .hero{
+  hero-img
+}  */
+
+@media (min-width: 768px ) {
+    .hero-img{
+ 
+       padding: 119px 0;
+    }
+}
+.abtinfo{
+  padding: 100px 0;
+}
+.parag{
+  color: black;
+  font-size: 1.1em;
+}
+.nav{
+  background-color: black;
+}
+.error{
+  padding: 100px 0;
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+}
+.errorlink{
+   text-decoration: none;
+   color: pink;
+   font-weight: 800;
+}
+.in{
+  
+   padding: 100px 0;
+   align-items: center;
+}
+.pin{
+  display: flex;
+  justify-content: space-around;
+}
+
+@media (min-width: 320px) {
+
+  .map{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    
+  }
+  
+  
+}
+@media (min-width: 576px) {
+
+  .map{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+   
+  }
+  
+}
+
+@media (min-width: 992px) {
+
+    .map{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+    }
+  
+}
+/* .map{
+  display: flex;
+} */
+.port{
+  padding: 100px 0;
+}
+
+.card-text{
+   color: black;
+   font-weight: bold;
+}
+.port-link{
+  text-decoration: none;
+  color: purple;
+  font-size: 1.3em;
+}
+.c-info{
+   text-decoration: none;
+   color: #ffaa5f ;
+  font-size: 1.3em;
+}.footer{
+  background-color: black;
+}
+/* .linkp{
+  color: pink;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1.4em;
+
+} */
+
+.contact{
+  padding: 100px 0;
+}
+.submit{
+  width: 100%;
+  padding: 10px 10x;
+  background-color: black;
+  color: white;
+}
+.p-text{
+  color: black;
+  font-size: 1.2em;
+}
+.wrap{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.img-t{
+background-image: url('../src/images/portfolio-\ direct-img.jfif');
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+width: 100%;
+height: 400px;
+}
+.port1{
+  padding: 7px 7px;
+  background-color: purple;
+  border: 2px solid purple;
+  color: white;
+}
+
+
+label{
+  color: black;
+  font-size: 1.2rem;
+}
+
+/* @media (max-width: 991px) {
+
+  #navlink{
+    display: none;
+  }
+
+   #contactnav{
+      display: none;
+   }
+   .toggles{
+     display: none;
+   }
+  
+} */
+
+/* @media (min-width: 991px) {
+  .toggles{
+    display: none;
+  }
+  .nav-menu{
+    display: none;
+  }
+} */
+
+.nav-menu{
+  background-color: black;
+  width: 250px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: -100%;
+  transition: 850ms;
+}
+
+.p-text{
+  line-height: 30px;
+}
+
+.success{
+  
+  align-items: center;
+  padding: 300px 0;
+  width: 100%;
+  height: 100vh;
+}
+
+
+
+
+
+
