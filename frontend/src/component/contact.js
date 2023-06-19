@@ -3,8 +3,7 @@ import Container from 'react-bootstrap/esm/Container'
 import Row from 'react-bootstrap/esm/Row'
 import Col from 'react-bootstrap/esm/Col'
 import Image1 from '../images/portfolio-contact.jpg'
-import { useForm } from 'react-hook-form';
-import axios, { Axios } from 'axios';
+import axios from "axios"
 import { useNavigate } from 'react-router-dom'
 
 
