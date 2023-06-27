@@ -24,7 +24,7 @@ return(
     
      <p className="card-text" style= {{ fontSize : " 1.2rem;" }}> {tittle} </p> 
     <div className="cart-icons">  
-     <a href= { link } target='_blank' className='port-link'>{link}</a>
+     <a href= { link } target='_blank' rel='noreferrer' className='port-link'>{link}</a>
 
 
  
