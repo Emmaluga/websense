@@ -1,9 +1,7 @@
 import React, { useState, useEffect } from 'react'
-import { Link } from 'react-router-dom'
 import Container from 'react-bootstrap/esm/Container'
 import Row from 'react-bootstrap/esm/Row'
 import Col from 'react-bootstrap/esm/Col'
-import PortfolioData from '../component/portfolioData'
 import Listings from '../component/listings'
 import axios from 'axios'
 
@@ -49,7 +47,7 @@ const PortfolioInfo = ()=> {
   }
   useEffect(()=>{
     Fetchdata()
-  }, []);
+  });
 
       
     return(

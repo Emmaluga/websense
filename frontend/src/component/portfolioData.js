@@ -1,6 +1,6 @@
 import image1 from '../images/pharmaDocs-homepage.png'
-import image2 from '../images/pharmaDocs-homepage.png'
-import image3 from '../images/pharmaDocs-homepage.png'
+// import image2 from '../images/pharmaDocs-homepage.png'
+// import image3 from '../images/pharmaDocs-homepage.png'
 import image4 from '../images/simply pretty homepage-sreenshot .png'
 import image5 from '../images/simply pretty-sign-in-page-sreenshot .png'
 import image6 from '../images/simply pretty-lipstick-product-page-sreenshot .png'

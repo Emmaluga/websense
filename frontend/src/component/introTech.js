@@ -2,9 +2,8 @@ import React from 'react'
 import Container from 'react-bootstrap/esm/Container'
 import Row from 'react-bootstrap/esm/Row'
 import Col from 'react-bootstrap/esm/Col'
-import Image2 from '../images/web design image.jpg'
 import Image1 from '../images/portfolio-about.jpg'
-import Image3 from '../images/web-2.jpg'
+
 
 const IntroTech =()=> {
 
