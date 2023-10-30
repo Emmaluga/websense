@@ -22,7 +22,7 @@ const Hero = ()=> {
             <Col className='bg- text-center' md={5}>
             
             <div className="hero-text  bg-">
-             <h1 className='head1 mb-4 text-center'><span style={{color:'purple', fontSize: '1.6em'}}>C</span>reate Your Presence  <br /> on the Web </h1> 
+             <h1 className='head1 mb-4 text-center'><span style={{color:'purple', fontSize: '1.2em'}}>C</span>reate Your Presence  on the Web </h1> 
             <p className='para'>websense is a web app development company that build
             dynamic websites for corporate businesses and entrepreneurs. </p>
                 <Link to='/contact'><button className='btn1 '>Create Now</button></Link> 

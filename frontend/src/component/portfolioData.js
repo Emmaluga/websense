@@ -16,7 +16,8 @@ const PortfolioData = [
        id: 1,
        image: image1,
        tittle: 'Websense-Homepage-Snapshot',
-       link: 'https://res.cloudinary.com/dp27njbrp/image/upload/v1685459161/pharmaDocs-homepage_dlamcc.png'
+      //  link: 'https://res.cloudinary.com/dp27njbrp/image/upload/v1685459161/pharmaDocs-homepage_dlamcc.png'
+      link:  'http://pharmaDocs.netlify.app'
     },
 
     {

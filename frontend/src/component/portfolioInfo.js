@@ -4,50 +4,51 @@ import Row from 'react-bootstrap/esm/Row'
 import Col from 'react-bootstrap/esm/Col'
 import Listings from '../component/listings'
 import axios from 'axios'
-
+import portfolioData from "./portfolioData"
 
 
 
 
 const PortfolioInfo = ()=> {
-  const [data, setData] = useState([])
+  // const [data, setData] = useState([])
+  const [ data, setData ]= useState(portfolioData)
 
 
 
-  let url = "http://localhost:5000/products";
+  // let url = "http://localhost:5000/products";
 
    
-    const Fetchdata = async ()=> {
+  //   const Fetchdata = async ()=> {
 
-          try {
-            axios
-            .get(url)
-            .then((res)=> {
+  //         try {
+  //           axios
+  //           .get(url)
+  //           .then((res)=> {
              
-                setData(res.data);
+  //               setData(res.data);
                 
-            })
-          } catch (error) {
-            console.log(error)
+  //           })
+  //         } catch (error) {
+  //           console.log(error)
         
-          }
+  //         }
        
-                  // try {
+  //                 // try {
                     
-                  //   let response = await fetch(url);
+  //                 //   let response = await fetch(url);
                      
-                  //   let actualdata = await response.json();
-                  //       setData(actualdata)
-                  // } catch (error) {
-                  //      console.log(error)
+  //                 //   let actualdata = await response.json();
+  //                 //       setData(actualdata)
+  //                 // } catch (error) {
+  //                 //      console.log(error)
 
 
-                    // }  
+  //                   // }  
 
-  }
-  useEffect(()=>{
-    Fetchdata()
-  });
+  // }
+  // useEffect(()=>{
+  //   Fetchdata()
+  // });
 
       
     return(
