@@ -164,31 +164,32 @@ font-family:  'Roboto';
   justify-content: space-around;
 }
 
-@media (min-width: 320px) {
+
+ /* @media (min-width: 320px) {
 
   .map{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     
-  }
+  } 
   
   
-}
-@media (min-width: 576px) {
+ } */
+/* @media (min-width: 576px) {
 
   .map{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
    
-  }
+  } 
   
-}
+} */
 
 @media (min-width: 992px) {
 
     .map{
       display: grid;
-      grid-template-columns: repeat(3, 1fr);
+      grid-template-columns: repeat(3, 1fr) ;
     }
   
 }

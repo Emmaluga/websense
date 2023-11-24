@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.51f46aec.css",
-    "main.js": "/static/js/main.0686c45e.js",
+    "main.css": "/static/css/main.bb58a4e1.css",
+    "main.js": "/static/js/main.09dd9d0e.js",
     "static/media/pharmaDocs-homepage.png": "/static/media/pharmaDocs-homepage.f471299077cc3c354a89.png",
     "static/media/simply pretty homepage-sreenshot .png": "/static/media/simply pretty homepage-sreenshot .ca03be70a301848e28bc.png",
     "static/media/pharmaDocs-blog-page.png": "/static/media/pharmaDocs-blog-page.7d4cb2ac0b31067014c8.png",
@@ -10,7 +10,6 @@
     "static/media/company-mission statement2 images.jpg": "/static/media/company-mission statement2 images.0ceb88f5f705f1ea81ab.jpg",
     "static/media/simply pretty-sign-in-page-sreenshot .png": "/static/media/simply pretty-sign-in-page-sreenshot .d45ab3a32d2e5cef178f.png",
     "static/media/web-1.jpg": "/static/media/web-1.a53035e22015692d60c9.jpg",
-    "static/media/web-2.jpg": "/static/media/web-2.8aae0ae316ea61fdff03.jpg",
     "static/media/portfolio-main1.jpg": "/static/media/portfolio-main1.dac397b2f423419f52be.jpg",
     "static/media/web design image.jpg": "/static/media/web design image.a93af4d17b3d41228766.jpg",
     "static/media/portfolio-contact.jpg": "/static/media/portfolio-contact.d047ff721c483d1bd789.jpg",
@@ -20,11 +19,11 @@
     "static/media/portfolio- direct-img.jfif": "/static/media/portfolio- direct-img.2cceeff47f6931868a89.jfif",
     "static/media/luga1.jpg": "/static/media/luga1.722e708473fd8aeea32c.jpg",
     "index.html": "/index.html",
-    "main.51f46aec.css.map": "/static/css/main.51f46aec.css.map",
-    "main.0686c45e.js.map": "/static/js/main.0686c45e.js.map"
+    "main.bb58a4e1.css.map": "/static/css/main.bb58a4e1.css.map",
+    "main.09dd9d0e.js.map": "/static/js/main.09dd9d0e.js.map"
   },
   "entrypoints": [
-    "static/css/main.51f46aec.css",
-    "static/js/main.0686c45e.js"
+    "static/css/main.bb58a4e1.css",
+    "static/js/main.09dd9d0e.js"
   ]
 }
